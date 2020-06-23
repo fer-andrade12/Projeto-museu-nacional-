@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <title>Museu - site official</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Museu - site official</title>
+    <!--folha de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!--folha normalização-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header><!--Início header-->
+        <div id="container"><!--Início container-->
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+            <nav>
+                <div class="menu">
+                    <ul>
+                        <li> <a href="">Home</a> </li>
+                        <li> <a href="exposicoes.html">Exposições</a> </li>
+                        <li> <a href="">Pesquisa</a> </li>
+                        <li> <a href="">Acervo</a> </li>
+                        <li> <a href="">Vídeos</a> </li>
+                        <li> <a href="">Fotos</a> </li>
+                        <li> <a href="">Contato</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>   
+    </header>
+    
+    <div id="conteudo">
+        <section id="capa">
+            <img src="img/museu.png">
+        </section>
+
+        <section id="postagens">
+            <article id="video">
+                <h3>VÍDEO: CONHEÇA O NOSSO MUSEU</h3>
+                <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </article>
+       
+            <article id="mapa">
+                <h3>MAPA: ENCONTRE O MUSEU NO MAPA</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470278.1929219884!2d-43.59819555638209!
+                    3d-22.948445217819863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f603157e2a9%3A0x9efa1a430324038c!
+                    2sMuseu%20Nacional%20de%20Belas%20Artes!5e0!3m2!1spt-BR!2sbr!
+                    4v1578500368520!5m2!1spt-BR!2sbr" width="310" height="170"
+                    frameborder="0" style="border:0;" allowfullscreen="">
+                </iframe>
+            </article>
+
+            <article id="exposiçoes">
+                <h3>EXPOSIÇÕES</h3>
+                <ul>
+                    <li>
+                        <a href="">Formigas gigantes</a>
+                    </li>
+                    <li>
+                        <a href="">Anatomia dos dinossauros</a>
+                    </li>
+                    <li>
+                        <a href="">Preguiça gigante</a>
+                    </li>
+                    <li>
+                        <a href="">Animais marinhos</a>
+                    </li>
+                    <li>
+                        <a href="">Exposições de pássaros</a>
+                    </li>
+                    <li>
+                        <a href="">Novidades do mês</a>
+                    </li>
+                </ul>
+            </article>
+
+            <article id="historia">
+                <h3>200 ANOS DE HISTÓRIA</h3>
+                <P>Numa ponta ponta que avança sobre o mar , 
+                    posteriormente conhecida como ponta do calabolço, 
+                    entre as prais de Piaçaba e Santa Luzia, 
+                    no centro histórico do Rio de Janeiro, 
+                    os portuguêses contruiram em 1603
+                    a fortaleza de SanTiago, origem do conjunto arquitetônico,
+                    que hoje abriga o Museu Histórico Nacional.
+                    <a href=""><strong>Leia mais</strong></a>
+                </P>
+            </article>
+        </section>
+    </div>
+
+    
+    <aside>
+        <section id="depoimento">
+            <img src="img/depoimento.png">
+            
+            <section id="visita">
+                <h4>Faça uma visita</h4>
+                <form>
+                    <fieldset>
+                        <legend>Selecione uma data</legend> 
+                        
+                        <label for="data">Data:</label>
+                        <input class="campo" type="text" id="data" value="dd/mm/aaaa"> 
+                        
+                        <label for="qtd">Qtd pessoas:</label>
+                        <input class="campo" type="text" style="width: 30px;" value="1">
+                    </fieldset>
+                    <input type="submit" value="Veja disponibilidade" class="botao" title="veja dispolibilidade">
+                </form>
+            </section>
+            <div>
+                <section id="galeria">
+                    <div>
+                        <h3>galeria de fotos</h3>
+                        <a href=""> <img src="img/imagem1.jpg" alt=""width="93px" height="93px"></a>
+                        <a href=""> <img src="img/imagem2.jpg" alt=""width="93px" height="93px"></a>
+                        <a href=""> <img src="img/imagem3.jpg" alt=""width="93px" height="93px"></a>
+                        <a href=""> <img src="img/imagem4.jpg" alt=""width="93px" height="93px"></a>
+                        <a href=""> <img src="img/imagem5.jpg" alt=""width="93px" height="93px"></a>
+                        <a href=""> <img src="img/imagem6.jpg" alt=""width="93px" height="93px"></a>
+                    </div>
+                </section>
+            </div>
+        </aside>
+        
+        
+        <footer>
+            
+            <h4>todos os direito reservados</h4>
+
+            <p><a href="">Exposições</a>
+                <a href="">Pesquisa</a>
+                <a href="">Acervo</a>
+               <a href="">Vídeos</a>
+               <a href="">Fotos</a>
+               <a href="">Contato</a></p>
+               
+               <p>2020 <a href="index.html">Museu Nacional</a></p>
+          </footer>
+        
+
+
+
+</body>
+</html>

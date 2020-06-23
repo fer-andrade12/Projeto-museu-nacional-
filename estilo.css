@@ -1,0 +1,168 @@
+body {
+    background: #f4f2ec url(./img/fundo.png) repeat-x;
+    font: 12px "lucida Grande", "lucida sans Unicode", Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* cabeçalho e menu
+-----------------------------------------*/
+header{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+a:link a:active a:visited { 
+   color: grey;
+}
+
+a:hover {
+    color:#808000;
+    text-decoration: underline;
+}
+
+a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+#container, #menu{
+    padding-top: 50px;
+}
+
+nav menu{
+    padding-bottom: 20px;
+}
+
+nav ul{
+   display: flex;
+   text-transform: uppercase;
+   
+}
+ul li{
+    list-style: none;
+    padding-top: 20px;
+    padding: 10px;
+}
+
+/*---banner inferior---*/
+#conteudo{
+    width: 710px;
+    float: left;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+/*---lateral---*/
+aside{
+width: 350px;
+float: right;
+padding-right: 50px;
+margin-bottom: 20px;
+}
+
+/*---formulário---*/
+
+section#visita{
+    background:#cdc8b1;
+    margin-top: 10px;
+    padding: 10px, 27px, 27px, 27px;;
+}
+
+h4{
+    color:#808000;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+input#data{
+    width: 75px;
+    height: 1.5em;
+    background: white;
+    font-size: 1em;
+}
+
+input.botao{
+    width: 350px;
+    background: gainsboro;
+}
+
+/*---fim formulário---*/
+
+/*---galeria---*/
+
+section#galeria a{
+    display: block;
+    background: url(img/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 15px;
+    margin: 10px 0px 0px 15px;
+} 
+
+
+/*---fim galeria---*/
+
+/*---Postagens---*/
+
+h3{
+    color: #227115;
+    font-size: 1.em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+article#video {
+    float: left;
+    width: 310px;
+    margin-left: 27px;
+}
+
+article#mapa {
+    float: left;
+    width: 320px;
+    margin-left: 27px;
+}
+
+article#exposiçoes {
+    float: left;
+    width: 310px;
+    margin-left: 27px;
+}
+
+article#historia{
+    float: left;
+    width: 310px;
+    margin-left: 27px;
+
+}
+
+/*---fim postagens---*/
+
+/*---Início rodape---*/
+
+footer {
+    clear:both;
+    padding: 20px,10px, 20px, 10px;
+    background-image: url(./img/fundo-rodape.png) no-repeat center top;
+    text-align: center;
+}
+
+footer>p a{
+    padding: 10px;
+}
+
+
+/*---fim rodape---*/
+
+/*---início esposições---*/
+
+section#exposicao1{
+    float: center;
+}
