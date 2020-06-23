@@ -3,6 +3,7 @@ body {
     font: 12px "lucida Grande", "lucida sans Unicode", Arial, sans-serif;
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 /* cabeçalho e menu
@@ -10,33 +11,25 @@ body {
 header{
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: 120px;
 }
 #container {
     display: flex;
     justify-content: space-between;
     width: 1080px;
-    margin: 0 auto;
+    align-items: center;
 }
-
 a:link a:active a:visited { 
    color: grey;
 }
-
 a:hover {
     color:#808000;
     text-decoration: underline;
 }
-
 a {
     color: darkgray;
     text-decoration: none;
 }
-
-#container, #menu{
-    padding-top: 50px;
-}
-
 nav menu{
     padding-bottom: 20px;
 }
